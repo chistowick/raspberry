@@ -1,0 +1,28 @@
+{
+    "name": "chistowick/raspberry",
+    "description": "A package that helps you quickly and easily check the reCAPTCHA v2 user response token.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "reCAPTCHA"
+    ],
+    "authors": [
+        {
+            "name": "Anatoly Chinyaev",
+            "email": "chistowick@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chistowick\\Raspberry\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
